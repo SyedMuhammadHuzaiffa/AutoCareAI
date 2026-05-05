@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "AutoCareAI",
+    "slug": "autocareai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Logo.png",
+    "scheme": "autocareai",
+    "userInterfaceStyle": "automatic",
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Logo.png",
+        "backgroundColor": "#0B0F1A"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.syed_huzaifa.autocareai"
+    },
+
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/Logo.png"
+    },
+
+    "splash": {
+      "image": "./assets/images/Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0F1A"
+    },
+
+    "plugins": [
+      "expo-router"
+    ],
+
+    "experiments": {
+      "typedRoutes": true
+    },
+
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6f047c18-ac8e-4359-ba03-cc24b8008f75"
+      }
+    }
+  }
+}
